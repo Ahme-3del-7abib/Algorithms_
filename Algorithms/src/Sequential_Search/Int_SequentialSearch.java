@@ -1,11 +1,11 @@
 package Sequential_Search;
 
-public class SequentialSearch<T> {
+public class Int_SequentialSearch {
 
-    T key;
-    Object[] array;
+    int key;
+    int[] array;
 
-    public SequentialSearch(T key, Object[] array) {
+    public Int_SequentialSearch(int key, int[] array) {
         this.key = key;
         this.array = array;
     }
@@ -15,9 +15,12 @@ public class SequentialSearch<T> {
         for (int i = 0; i < array.length; i++) {
 
             if (array[i] == key) {
-                
-                return true;
 
+                if (array[i] > key) {
+                    return false;
+                }
+
+                return true;
             }
         }
         return false;
