@@ -49,9 +49,9 @@ public class Bubble_Sort_Main {
 
                 if (array[i] > array[j]) {
 
-                    int min = array[i];
+                    int max = array[i];
                     array[i] = array[j];
-                    array[j] = min;
+                    array[j] = max;
                 }
 
             }
