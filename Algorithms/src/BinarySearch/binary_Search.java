@@ -7,7 +7,7 @@ public class binary_Search {
     }
 
     // USING RECURSION
-    public void isFound(int first, int last, int key, int[] array) {
+    public static void isFound(int first, int last, int key, int[] array) {
 
         int avg = first + ((last - first) / 2);
 
@@ -36,7 +36,7 @@ public class binary_Search {
     }
 
     // USING WHILE LOOP
-    public void check(int first, int last, int key, int[] array) {
+    public static void check(int first, int last, int key, int[] array) {
 
         boolean x = false;
         while (!x) {

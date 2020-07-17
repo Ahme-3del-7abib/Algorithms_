@@ -2,7 +2,7 @@ package Merge_Sort;
 
 public class MergeSort {
 
-    public void mergeSort(int[] array) {
+    public static void mergeSort(int[] array) {
 
         if (array.length < 2) {
             return;
@@ -28,7 +28,7 @@ public class MergeSort {
         sort(array, arr1, arr2);
     }
 
-    public void sort(int[] array, int[] arr1, int[] arr2) {
+    private static void sort(int[] array, int[] arr1, int[] arr2) {
 
         int i = 0, j = 0, k = 0;
         while (i < arr1.length && j < arr2.length) {

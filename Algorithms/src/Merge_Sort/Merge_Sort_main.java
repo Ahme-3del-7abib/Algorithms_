@@ -15,8 +15,7 @@ public class Merge_Sort_main {
 
         int[] array = {1, 2, 3, 9, 8, 7};
 
-        MergeSort ms = new MergeSort();
-        ms.mergeSort(array);
+        MergeSort.mergeSort(array);
 
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);

@@ -19,10 +19,9 @@ public class Binary_Search_main {
         int key = 23;
         int[] array = new int[]{20, 23, 30, 50, 62, 105, 500, 610, 720, 900};
 
-        binary_Search search = new binary_Search();
 
-        search.check(0, array.length - 1, key, array);
-        search.isFound(0, array.length - 1, key, array);
+        binary_Search.check(0, array.length - 1, key, array);
+        binary_Search.isFound(0, array.length - 1, key, array);
 
     }
 
